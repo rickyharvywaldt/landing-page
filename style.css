@@ -169,11 +169,19 @@ button:focus {
     justify-content: center;
     list-style: none;
     gap: 30px;
+    padding-bottom: 50px;
 }
 
 .images li {
     width: 150px;
     text-align: center;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 25px;
 }
 
 .review {
@@ -187,7 +195,36 @@ button:focus {
 }
 
 .author {
+    display: flex;
+    justify-content: flex-end;
     font-size: 18px;
     font-weight: 700;
-    text-align: right;
+    font-style: normal;
+    padding-right: 150px;
+}
+
+.unequal-columns {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 100px 120px;
+    padding: 75px 120px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.unequal-columns h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.button.cta {
+    border: 1px solid #fff;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #fff;
+    padding: 20px 0;
 }
