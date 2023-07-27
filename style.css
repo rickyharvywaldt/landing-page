@@ -82,6 +82,7 @@ svg {
 
 .logo {
     text-decoration: none;
+    font-size: 24px;
     color: #fff;
 }
 
@@ -93,6 +94,7 @@ svg {
 
 .nav-list a {
     text-decoration: none;
+    font-size: 18px;
     color: #fff;
 }
 
@@ -120,13 +122,30 @@ svg {
     flex: 1 1 0px;
 }
 
+.equal-columns img {
+    height: 250px;
+    width: 650px;
+    object-fit: cover;
+}
+
+.equal-columns h1 {
+    font-size: 48px;
+    font-weight: 700; 
+}
+
+.equal-columns p {
+    font-size: 18px;
+    padding: 15px 0;
+}
+
 .button {
     background-color: #3882f6;
     color: #fff;
-    padding: 5px 20px;
+    padding: 10px 35px;
     border-radius: 5px;
     cursor: pointer;
     border: none;
+    font-size: 18px;
 }
 
 button:focus {
@@ -134,14 +153,41 @@ button:focus {
     outline: none;
 }
 
-.equal-columns img {
-    height: 200px;
-    width: 500px;
-    object-fit: cover;
+.container.content {
+    padding: 50px 200px;
 }
 
-.equal-columns h1 {
-    font-size: 48px;
+.container h2 {
+    text-align: center;
+    font-size: 36px;
     font-weight: 700;
+    padding-bottom: 50px;
 }
 
+.images {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.images li {
+    width: 150px;
+    text-align: center;
+}
+
+.review {
+    background-color: #e5e7eb;
+    padding: 50px 150px;
+}
+
+.review p {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+}
